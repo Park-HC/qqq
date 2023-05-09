@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Details</title>
+</head>
+<body>
+    <p>Path for item ID: {% for key, value in body.items() %}</p>
+    <li> key: {{key}} </li>
+    <li> value: {{value}} </li>
+    {% endfor %}
+</body>
+</html>
