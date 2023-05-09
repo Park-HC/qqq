@@ -25,4 +25,4 @@ async def read_item(request: Request):
 
 
 if __name__ == "__main__":
-    uvicorn.run(app)
+    uvicorn.run(app, host="https://hcazuredjango.azurewebsites.net/")
